@@ -1,0 +1,236 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: "GothamProRegular";
+	font-size: 14px;
+}
+
+.container {
+	max-width: 980px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.upper-header {
+	background-color: #f2f3f4;
+	border-bottom: 2px solid #e1e1e2;
+}
+
+.upper-header .left-info {
+	float: left;
+	padding: 21px 0 21px 0;
+}
+
+.upper-header .right-info {
+	float: right;
+	padding: 22px 0 22px 0;
+}
+
+.upper-header .right-info a{
+	color: #33549e;
+	text-decoration: underline;
+}
+
+.upper-header .right-info a:first-child{ margin-right: 30px; }
+
+.upper-header .right-info a:last-child{ margin-right: 10px; }
+
+.upper-header .right-info a:hover{
+	color: #33549e;
+	text-decoration: underline;
+}
+
+.middle-header{
+	position: relative;
+	background-color: #f6f6f6;
+	border-bottom: 2px solid #e7e7e7;
+}
+
+.middle-header .container{
+	position: relative;
+	z-index: 999;
+}
+
+.middle-header::after {
+	position: absolute;
+	content: '';
+	background: url('../images/middle-header-bg.png')no-repeat right;
+	top:0;
+	right: 18%;
+	max-width: 540px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.middle-header .left-info {
+	float: left;
+	margin: 20px 0 20px 15px;
+	z-index: 2;
+}
+
+.logo { 
+	display: block; 
+	float: left;
+	padding: 14px 0 14px 0;
+}
+
+.middle-header .left-info h1 {
+	font-size: 21px;
+	font-family: "EBGaramondRegular";
+}
+
+.middle-header .left-info p {
+	font-size: 13px;
+	font-family: "GothamProBold";
+	z-index: 5;
+}
+
+.middle-header .right-info {
+	float: right;
+	text-align: right;
+	margin: 23px 0 0 0;
+	z-index: 5;
+}
+
+.middle-header .right-info .number {
+	color: #666666;
+	font-size: 24px;
+	line-height: 24px;
+	z-index: 5;
+}
+
+.middle-header .right-info a {
+	display: inline-block;
+	color: #33549e;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 6px;
+	z-index: 5;
+}
+
+.header-menu {
+	padding: 22px 0 24px 0;
+	border-bottom: 2px solid #eaeaea;
+	text-align: center;
+}
+
+.header-menu .nav {
+	list-style: none;
+}
+
+.header-menu .nav li{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-menu .nav a{
+	color: #404040;
+	margin: 0 19px 0 19px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-big-menu {
+	padding: 47px 0;
+}
+
+.header-big-menu li {
+	list-style: none;
+	position: relative;
+	margin: 15px 0;
+}
+
+.header-big-menu ul li::before{
+	position: absolute;
+	content: '';
+	background: url('../images/list-decoration.png')no-repeat;
+	width: 13px;
+	height: 17px;
+	top: 0;
+	left: -25px;
+}
+
+.header-big-menu li a {
+	color: #666666;
+}
+
+.header-big-menu li a:hover {
+	color: #4c8198;
+	border-bottom: 1px dashed #4c8198;
+}
+
+.header-big-menu .left-col {
+	float: left;
+	max-width: 290px;
+	padding-left: 45px;
+}
+
+.header-big-menu .middle-col {
+	float: left;
+	max-width: 290px;
+	padding-left: 15px;
+}
+
+
+.header-big-menu .right-col {
+	float: right;
+	max-width: 290px;
+}
+
+.about-school-upper{
+	margin-top: 100px;
+}
+
+.shadow {
+	box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+}
+
+.decorative-divider {
+	text-align: center;
+	margin: 55px 0;
+}
+
+.about-school-upper .wrapper {
+	position: relative;
+	padding: 60px 0 90px 88px;
+	width: 734px;
+}
+
+.about-school-upper .wrapper h2 {
+	color: #4c8198;
+	font-family: 'Roboto Slab', serif;
+	font-size: 37px;
+	max-width: 495px;
+}
+
+.about-school-upper .wrapper p {
+	margin-top: 55px;
+	color: #666666;
+	font-size: 16px;
+	max-width: 495px;
+	word-spacing: 10px;
+	line-height: 20px;
+}
+
+.about-school-upper .wrapper .img-wrapper {
+	position: absolute;
+	top: -64px;
+	right: -160px;
+}
+
+.structure-and-authorities .wrapper {
+	padding: 70px 110px 70px 105px;
+}
