@@ -274,3 +274,31 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	font-family: "GothamProBold";
 	font-size: 16px;
 }
+
+.documents .wrapper {
+	padding: 62px 62px 92px 66px; 
+}
+
+.documents .wrapper h2 {
+	text-align: center;
+	margin: 0 auto;
+	color: #4c8198;
+	font-family: 'Roboto Slab', serif;
+	font-size: 37px;
+	margin-bottom: 58px;
+}
+
+.documents .wrapper div {
+	border-bottom: 1px solid #d2d2d2;
+	padding: 30px 18px 30px 70px;
+}
+
+.documents .wrapper div:last-child {
+	border-bottom: none;
+}
+
+.documents .wrapper div p {
+	max-width: 700px;
+	color: #666666;
+	font-family: "GothamProBold";
+}
