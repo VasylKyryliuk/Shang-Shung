@@ -290,7 +290,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .documents .wrapper div {
 	border-bottom: 1px solid #d2d2d2;
-	padding: 30px 18px 30px 70px;
+	padding: 0 18px 0 70px;
 }
 
 .documents .wrapper div:last-child {
@@ -298,7 +298,31 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 }
 
 .documents .wrapper div p {
+	position: relative;
 	max-width: 700px;
 	color: #666666;
 	font-family: "GothamProBold";
+	padding: 30px 0 30px 0;
+}
+
+.documents .wrapper div p::before {
+	position: absolute;
+	content: '';
+	background: url('../images/pdf-icon.png')no-repeat center;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -50px;
+	height: 27px;
+	width: 22px;
+}
+
+.documents .wrapper div p a::after {
+	position: absolute;
+	content: '';
+	background: url('../images/download-icon.png')no-repeat center;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -50px;
+	height: 23px;
+	width: 25px;
 }
