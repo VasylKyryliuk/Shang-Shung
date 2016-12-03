@@ -234,3 +234,43 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 .structure-and-authorities .wrapper {
 	padding: 70px 110px 70px 105px;
 }
+
+.structure-and-authorities .wrapper h2{
+	display: inline-block;
+	text-align: center;
+	color: #4c8198;
+	font-family: 'Roboto Slab', serif;
+	font-size: 37px;
+}
+
+.structure-and-authorities .wrapper h5 {
+	color: #666666;
+	font-size: 14px;
+	margin: 25px 0 23px 0;
+}
+
+.structure-and-authorities .wrapper .structure-and-authorities-name {
+	color: #4c8198;
+	font-family: "GothamProBold";
+}
+
+.structure-and-authorities .wrapper .structure-and-authorities-number-email {
+	color: #666666;
+	font-family: "GothamProBold";
+}
+
+.structure-and-authorities .wrapper .structure-and-authorities-number-email span {
+	margin-left: 20px;
+}
+
+.structure-and-authorities .wrapper .structure-and-authorities-text {
+	margin-top: 32px;
+	color: #666666;
+	word-spacing: 13px;
+}
+
+.structure-and-authorities .wrapper p .edit-word{
+	color: #4c8198;
+	font-family: "GothamProBold";
+	font-size: 16px;
+}
