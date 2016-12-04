@@ -412,3 +412,43 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	transform: translateY(-50%);
 	left: 0;
 }
+
+.numbered-list .wrapper {
+	padding: 75px 100px 82px 118px;
+}
+
+.numbered-list .wrapper h2 {
+	text-align: center;
+	margin: 0 auto;
+	color: #4c8198;
+	font-family: 'BrioniBold';
+	font-size: 37px;
+	margin-bottom: 58px;
+}
+
+.numbered-list .wrapper p {
+	margin-bottom: 45px;
+}
+
+.numbered-list .wrapper ol {
+	padding: 0;
+}
+
+.numbered-list .wrapper li {
+  list-style: none;
+}
+
+.numbered-list .wrapper .num{
+  color: white;
+  background: #4c8198;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.about-school-bottom ..wrapper {
+	padding: 70px 45px 80px 83px;
+}
