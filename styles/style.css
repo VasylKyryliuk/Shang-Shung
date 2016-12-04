@@ -511,6 +511,7 @@ footer .wrapper .footer-menu ul li {
 footer .wrapper .footer-menu ul li p {
 	color: #000;
 	font-family: 'GothamBol';
+	text-transform: uppercase;
 }
 
 footer .wrapper .footer-menu ul li a {
@@ -529,4 +530,28 @@ footer .wrapper .footer-menu {
 
 footer .wrapper .bottom-footer {
 	padding: 28px 0 100px 0;
+}
+
+footer .wrapper .bottom-footer p {
+	display: inline-block;
+}
+
+footer .wrapper .bottom-footer .bottom-footer-logo {
+	text-transform: uppercase;
+	font-family: 'GothamBol';
+	margin-right: 55px;
+}
+
+footer .wrapper .bottom-footer .bottom-footer-address a {
+	text-decoration: underline;
+	color: #4c8198;
+}
+
+footer .wrapper .bottom-footer .bottom-footer-address span,
+footer .wrapper .bottom-footer .bottom-footer-number span {
+	font-family: 'GothamBol';
+}
+
+footer .wrapper .bottom-footer .bottom-footer-number {
+	float: right;
 }
