@@ -22,16 +22,16 @@
     src: url("../fonts/GothamPro/GothaProLig.otf") format("opentype");
 }
 
+/* font-family: 'GothamLigItaly'; */
+@font-face {
+    font-family: 'GothamLigItaly';
+    src: url("../fonts/GothamPro/GothaProLigIta.otf") format("opentype");
+}
+
 /* font-family: 'Garamond'; */
 @font-face {
     font-family: 'Garamond';
     src: url("../fonts/Garamond/garreg.ttf");
-}
-
-/* font-family: 'GothamLigItaly'; */
-@font-face {
-    font-family: 'GothamLigItaly';
-    src: url("../fonts/Gotham Cyrillic/GothaProLigIta.otf") format("opentype");
 }
 
 /* font-family: 'BrioniBold'; */

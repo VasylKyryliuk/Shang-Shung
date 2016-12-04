@@ -1,7 +1,7 @@
 body {
 	padding: 0;
 	margin: 0 auto;
-	font-family: "GothamProRegular";
+	font-family: 'GothamReg';
 	font-size: 14px;
 }
 
@@ -56,23 +56,10 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	position: relative;
 	background-color: #f6f6f6;
 	border-bottom: 2px solid #e7e7e7;
-}
-
-.middle-header .container{
-	position: relative;
-	z-index: 999;
-}
-
-.middle-header::after {
-	position: absolute;
-	content: '';
-	background: url('../images/middle-header-bg.png')no-repeat right;
-	top:0;
-	right: 18%;
-	max-width: 540px;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
+	background-image: url(../images/middle-header-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 50%;
 }
 
 .middle-header .left-info {
@@ -89,12 +76,12 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .middle-header .left-info h1 {
 	font-size: 21px;
-	font-family: "EBGaramondRegular";
+	font-family: 'Garamond';
 }
 
 .middle-header .left-info p {
 	font-size: 13px;
-	font-family: "GothamProBold";
+	font-family: 'GothamBol';
 	z-index: 5;
 }
 
@@ -251,12 +238,12 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .structure-and-authorities .wrapper .structure-and-authorities-name {
 	color: #4c8198;
-	font-family: "GothamProBold";
+	font-family: 'GothamBol';
 }
 
 .structure-and-authorities .wrapper .structure-and-authorities-number-email {
 	color: #666666;
-	font-family: "GothamProBold";
+	font-family: 'GothamBol';
 }
 
 .structure-and-authorities .wrapper .structure-and-authorities-number-email span {
@@ -271,7 +258,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .edit-word {
 	color: #4c8198;
-	font-family: "GothamProBold";
+	font-family: 'GothamBol';
 	font-size: 16px;
 }
 
@@ -283,7 +270,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	text-align: center;
 	margin: 0 auto;
 	color: #4c8198;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'BrioniBold';
 	font-size: 37px;
 	margin-bottom: 58px;
 }
@@ -301,7 +288,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	position: relative;
 	max-width: 700px;
 	color: #666666;
-	font-family: "GothamProBold";
+	font-family: 'GothamBol';
 	padding: 30px 0 30px 0;
 }
 
