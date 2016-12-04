@@ -449,6 +449,84 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
   height: 40px;
 }
 
-.about-school-bottom ..wrapper {
+.about-school-bottom .wrapper {
 	padding: 70px 45px 80px 83px;
+}
+
+.about-school-bottom .wrapper h2 {
+	text-align: left;
+	color: #4c8198;
+	font-family: 'BrioniBold';
+	max-width: 495px;
+	font-size: 37px;
+	margin-bottom: 58px;
+}
+
+.about-school-bottom .wrapper p {
+	max-width: 495px;
+	word-spacing: 10px;
+	line-height: 24px;
+}
+
+.about-school-bottom .wrapper .left-info {
+	float: left;
+}
+
+.about-school-bottom .wrapper .right-info {
+	float: right;
+}
+
+.about-school-bottom {
+	margin-bottom: 83px;
+}
+
+footer {
+	background-color: #f9f9f9;
+	border-top: 1px solid #eaeaea;
+}
+
+footer .wrapper .footer-menu ul {
+	display: inline-block;
+	max-width: 140px;
+	vertical-align: top;
+	margin: 0 15px;
+}
+
+footer .wrapper .footer-menu ul:firs-child {
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+footer .wrapper .footer-menu ul:last-child {
+	margin-left: 15px;
+	margin-right: 0;
+	max-width: 80px;
+}
+
+footer .wrapper .footer-menu ul li {
+	list-style: none;
+	margin: 12px 0;
+}
+
+footer .wrapper .footer-menu ul li p {
+	color: #000;
+	font-family: 'GothamBol';
+}
+
+footer .wrapper .footer-menu ul li a {
+	color: #3e3e3e;
+}
+
+footer .wrapper .footer-menu ul li a:hover {
+	color: #4c8198;
+	border-bottom: 1px dashed #4c8198;
+}
+
+footer .wrapper .footer-menu {
+	padding: 40px 0 35px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+footer .wrapper .bottom-footer {
+	padding: 28px 0 100px 0;
 }
