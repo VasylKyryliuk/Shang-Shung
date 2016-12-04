@@ -1,43 +1,41 @@
-/* font-family: "GothamProRegular"; */
+/* font-family: 'GothamReg'; */
 @font-face {
-    font-family: "GothamProRegular";
-    src: url("../fonts/GothamPro/GothamProRegular/GothamProRegular.eot");
-    src: url("../fonts/GothamPro/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamPro/GothamProRegular/GothamProRegular.woff") format("woff"),
-    url("../fonts/GothamPro/GothamProRegular/GothamProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GothamReg';
+    src: url("../fonts/GothamPro/GothaProReg.otf") format("opentype");
 }
 
-/* font-family: "GothamProBold"; */
+/* font-family: 'GothamBla'; */
 @font-face {
-    font-family: "GothamProBold";
-    src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot");
-    src: url("../fonts/GothamPro/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamPro/GothamProBold/GothamProBold.woff") format("woff"),
-    url("../fonts/GothamPro/GothamProBold/GothamProBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GothamBla';
+    src: url("../fonts/GothamPro/GothaProBla.otf") format("opentype");
 }
 
-/* font-family: "GothamProItalic"; */
+/* font-family: 'GothamBol'; */
 @font-face {
-    font-family: "GothamProItalic";
-    src: url("../fonts/GothamPro/GothamProItalic/GothamProItalic.eot");
-    src: url("../fonts/GothamPro/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/GothamPro/GothamProItalic/GothamProItalic.woff") format("woff"),
-    url("../fonts/GothamPro/GothamProItalic/GothamProItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GothamBol';
+    src: url("../fonts/GothamPro/GothaProBol.otf") format("opentype");
 }
 
-/* font-family: "EBGaramondRegular"; */
+/* font-family: 'GothamLig'; */
 @font-face {
-    font-family: "EBGaramondRegular";
-    src: url("../fonts/Garamond/EBGaramondRegular.eot");
-    src: url("../fonts/Garamond/EBGaramondRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/Garamond/EBGaramondRegular.woff") format("woff"),
-    url("../fonts/Garamond/EBGaramondRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'GothamLig';
+    src: url("../fonts/GothamPro/GothaProLig.otf") format("opentype");
+}
+
+/* font-family: 'Garamond'; */
+@font-face {
+    font-family: 'Garamond';
+    src: url("../fonts/Garamond/garreg.ttf");
+}
+
+/* font-family: 'GothamLigItaly'; */
+@font-face {
+    font-family: 'GothamLigItaly';
+    src: url("../fonts/Gotham Cyrillic/GothaProLigIta.otf") format("opentype");
+}
+
+/* font-family: 'BrioniBold'; */
+@font-face {
+    font-family: 'BrioniBold';
+    src: url("../fonts/Brioni/BrioniTextBold.otf") format("opentype");
 }
