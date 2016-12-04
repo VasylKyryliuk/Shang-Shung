@@ -73,6 +73,11 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	display: block; 
 	float: left;
 	padding: 14px 0 14px 0;
+	transition: .3s;
+}
+
+.logo:hover {
+	transform: rotate(360deg);
 }
 
 .middle-header .left-info h1 {
@@ -110,7 +115,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 }
 
 .header-menu {
-	padding: 22px 0 24px 0;
 	border-bottom: 2px solid #eaeaea;
 	text-align: center;
 }
@@ -126,9 +130,15 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .header-menu .nav a{
 	color: #404040;
-	margin: 0 19px 0 19px;
+	padding: 22px 19px 24px 19px;
 	display: inline-block;
 	vertical-align: middle;
+	transition: .3s;
+}
+
+.header-menu .nav a:hover {
+	background-color: #4c8198;
+	color: white;
 }
 
 .header-big-menu {
@@ -138,7 +148,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 .header-big-menu li {
 	list-style: none;
 	position: relative;
-	margin: 15px 0;
+	margin: 20px 0;
 }
 
 .header-big-menu ul li::before{
