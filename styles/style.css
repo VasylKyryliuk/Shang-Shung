@@ -485,6 +485,8 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .numbered-list .wrapper li {
   list-style: none;
+  font-family: 'GothamLigItaly';
+
 }
 
 .numbered-list .wrapper .num{
@@ -493,9 +495,11 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
   display: inline-block;
   text-align: center;
   margin: 5px 10px;
+  margin-right: 40px;
   line-height: 40px;
   width: 40px;
   height: 40px;
+  font-family: 'GothamReg';
 }
 
 .about-school-bottom .wrapper {
@@ -604,4 +608,9 @@ footer .wrapper .bottom-footer .bottom-footer-number span {
 footer .wrapper .bottom-footer .bottom-footer-number {
 	float: right;
 	margin-top: 20px;
+}
+
+footer .wrapper .bottom-footer .bottom-footer-number a {
+	color: #33549e;
+	text-decoration: underline;
 }
