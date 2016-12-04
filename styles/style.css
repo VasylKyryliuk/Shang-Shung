@@ -361,26 +361,65 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 #td1 {
     background-color: #4c8198;
-    padding: 38px 40px 36px 43px;
+    /*padding: 38px 40px 36px 43px;*/
     border-left: 1px solid #fff;
     color: #fff;
-    font-size: 14px;
-    text-align: center;
+    font-size: 15px;
+    text-align: left;
 }
 
 #td2 {
     background-color: #d7e2e7;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     border-left: 1px solid #fff;
     font-size: 14px;
     text-align: center;
 }
 #td3 {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     font-size: 14px;
     text-align: center;
+}
+
+.td-N {
+	padding: 38px 40px 36px 43px;
+}
+
+.td-Name-of-object-header {
+	width: 300px;
+	padding: 38px 92px 36px 32px
+}
+
+.td-area {
+	padding: 28px 40px 27px 27px;
+}
+
+.max-width-city {
+	max-width: 144px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.td-address-of-object {
+	width: 200px;
+	padding: 38px 70px 34px 31px;
+}
+
+.td-appointment-objet {
+	text-align: left;
+	padding: 28px 80px 27px 30px;
+}
+
+.appointment {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.name-of-object {
+	text-align: left;
+	margin-left: 30px;
 }
 
 .big-table-objects {
@@ -564,4 +603,5 @@ footer .wrapper .bottom-footer .bottom-footer-number span {
 
 footer .wrapper .bottom-footer .bottom-footer-number {
 	float: right;
+	margin-top: 20px;
 }
