@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	font-family: 'GothamReg';
 	font-size: 14px;
+	color: #666666;
 }
 
 .container {
@@ -315,7 +316,7 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 }
 
 .logistical-support .wrapper {
-	padding: 73px 100px 62px 117px;
+	padding: 73px 100px 100px 117px;
 }
 
 .logistical-support .wrapper h2 {
@@ -374,4 +375,40 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 
 .big-table-objects {
 	margin-top: 105px;
+}
+
+.paid-services .wrapper {
+	padding: 68px 100px 90px 120px;
+}
+
+.paid-services .wrapper p {
+	margin: 27px 0;
+}
+
+.paid-services .wrapper h2 {
+	text-align: center;
+	margin: 0 auto;
+	color: #4c8198;
+	font-family: 'BrioniBold';
+	font-size: 37px;
+	margin-bottom: 31px;
+}
+
+.paid-services .wrapper li {
+	position: relative;
+	line-height: 24px;
+	list-style: none;
+	padding-left: 30px;
+	font-family: 'GothamLigItaly';
+}
+
+.paid-services .wrapper li::before {
+	position: absolute;
+	content: '';
+	background: url('../images/list-ellips.png')center no-repeat;
+	height: 7px;
+	width: 7px;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
 }
