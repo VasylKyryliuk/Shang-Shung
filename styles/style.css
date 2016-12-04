@@ -426,6 +426,43 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	margin-top: 105px;
 }
 
+.bt-name-obj-hdr {
+	width: 182px;
+	padding-right: 40px;
+	padding-left: 47px;
+}
+
+.bt-address-hdr {
+	padding-left: 24px;
+	text-align: left;
+}
+
+.bt-address {
+	text-align: left;
+	padding-left: 24px;
+}
+
+.bt-equipment-hdr {
+	padding: 30px 30px 22px 10px;
+}
+
+.bt-quantity-hdr {
+	padding: 38px 10px 36px 11px;
+}
+
+.bt-total-area-hdr {
+	padding-left: 19px;
+}
+
+.bt-obj-practice-hdr {
+	padding-left: 16px;
+	padding-right: 0;
+}
+
+.tal {
+	text-align: left;
+}
+
 .paid-services .wrapper {
 	padding: 68px 100px 90px 120px;
 }
@@ -540,18 +577,23 @@ footer {
 
 footer .wrapper .footer-menu ul {
 	display: inline-block;
-	max-width: 140px;
+	max-width: 160px;
 	vertical-align: top;
-	margin: 0 15px;
+	margin: 0 3px;
+	font-size: 13px;
+}
+
+footer .wrapper .footer-menu .edit-menu {
+	max-width: 200px;
 }
 
 footer .wrapper .footer-menu ul:firs-child {
 	margin-left: 0;
-	margin-right: 15px;
+	margin-right: 3px;
 }
 
 footer .wrapper .footer-menu ul:last-child {
-	margin-left: 15px;
+	margin-left: 3px;
 	margin-right: 0;
 	max-width: 80px;
 }
