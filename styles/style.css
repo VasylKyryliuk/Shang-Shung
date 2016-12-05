@@ -24,6 +24,10 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	padding: 0;
 }
 
+h2 {
+	font-size: 37px;
+}
+
 .upper-header {
 	background-color: #f2f3f4;
 	border-bottom: 2px solid #e1e1e2;
@@ -130,12 +134,12 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	list-style: none;
 }
 
-.header-menu .nav li{
+.header-menu .nav li {
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.header-menu .nav a{
+.header-menu .nav a {
 	color: #404040;
 	padding: 22px 19px 24px 19px;
 	display: inline-block;
@@ -250,7 +254,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	text-align: center;
 	color: #4c8198;
 	font-family: 'BrioniBold';
-	font-size: 37px;
 }
 
 .structure-and-authorities .wrapper h5 {
@@ -294,7 +297,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	margin: 0 auto;
 	color: #4c8198;
 	font-family: 'BrioniBold';
-	font-size: 37px;
 	margin-bottom: 58px;
 }
 
@@ -354,7 +356,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	margin: 0 auto;
 	color: #4c8198;
 	font-family: 'BrioniBold';
-	font-size: 37px;
 	margin-bottom: 52px;
 }
 
@@ -498,7 +499,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	margin: 0 auto;
 	color: #4c8198;
 	font-family: 'BrioniBold';
-	font-size: 37px;
 	margin-bottom: 31px;
 }
 
@@ -534,7 +534,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	margin: 0 auto;
 	color: #4c8198;
 	font-family: 'BrioniBold';
-	font-size: 37px;
 	margin-bottom: 58px;
 }
 
@@ -574,7 +573,6 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li {
 	color: #4c8198;
 	font-family: 'BrioniBold';
 	max-width: 495px;
-	font-size: 37px;
 	margin-bottom: 58px;
 }
 
@@ -681,4 +679,8 @@ footer .wrapper .bottom-footer .bottom-footer-number {
 footer .wrapper .bottom-footer .bottom-footer-number a {
 	color: #33549e;
 	text-decoration: underline;
+}
+
+.hide {
+	display: none;
 }

@@ -1,0 +1,129 @@
+@media screen and (min-width: 701px) and (max-width: 1040px) { 
+
+  	.container { padding: 0 30px;	}
+
+  	.about-school-upper { display: none; }
+
+  	.hide { display: block; }
+
+	.about-school-bottom .wrapper { text-align: center; padding: 70px 45px 70px 45px; }
+
+	.about-school-bottom .wrapper .left-info,
+	.about-school-bottom .wrapper .right-info {
+		float: none;
+		display: inline-block;
+	}
+
+	.about-school-bottom .wrapper p {
+		text-align: left;
+		max-width: 100%;
+		word-spacing: 10px;
+		line-height: 24px;
+	}
+
+	.about-school-bottom .wrapper h2 {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-school-bottom .right-info img {
+		display: inline-block;
+		max-width: 100%;
+		max-height: 100%;
+		margin-top: 40px;
+	}
+
+	.header-menu .nav a {
+		font-size: 12px;
+	}
+
+	.header-big-menu {
+		font-size: 12px;
+	}
+
+	.header-big-menu .left-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.header-big-menu .middle-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.header-big-menu .right-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+
+	.container { padding: 0 30px;	}
+
+  	.about-school-upper { display: none; }
+
+  	.hide { display: block; }
+
+	.about-school-bottom .wrapper { text-align: center; padding: 70px 45px 70px 45px; }
+
+	.about-school-bottom .wrapper .left-info,
+	.about-school-bottom .wrapper .right-info {
+		float: none;
+		display: inline-block;
+	}
+
+	.about-school-bottom .wrapper p {
+		text-align: left;
+		max-width: 100%;
+		word-spacing: 10px;
+		line-height: 24px;
+	}
+
+	.about-school-bottom .wrapper h2 {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.about-school-bottom .right-info img {
+		display: inline-block;
+		max-width: 100%;
+		max-height: 100%;
+		margin-top: 40px;
+	}
+
+	.header-menu .nav a {
+		font-size: 12px;
+	}
+
+	.header-big-menu {
+		font-size: 12px;
+	}
+
+	.header-big-menu .left-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.header-big-menu .middle-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.header-big-menu .right-col {
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+}
