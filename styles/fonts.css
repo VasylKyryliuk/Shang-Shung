@@ -1,0 +1,41 @@
+/* font-family: 'GothamReg'; */
+@font-face {
+    font-family: 'GothamReg';
+    src: url("../fonts/GothamPro/GothaProReg.otf") format("opentype");
+}
+
+/* font-family: 'GothamBla'; */
+@font-face {
+    font-family: 'GothamBla';
+    src: url("../fonts/GothamPro/GothaProBla.otf") format("opentype");
+}
+
+/* font-family: 'GothamBol'; */
+@font-face {
+    font-family: 'GothamBol';
+    src: url("../fonts/GothamPro/GothaProBol.otf") format("opentype");
+}
+
+/* font-family: 'GothamLig'; */
+@font-face {
+    font-family: 'GothamLig';
+    src: url("../fonts/GothamPro/GothaProLig.otf") format("opentype");
+}
+
+/* font-family: 'GothamLigItaly'; */
+@font-face {
+    font-family: 'GothamLigItaly';
+    src: url("../fonts/GothamPro/GothaProLigIta.otf") format("opentype");
+}
+
+/* font-family: 'Garamond'; */
+@font-face {
+    font-family: 'Garamond';
+    src: url("../fonts/Garamond/garreg.ttf");
+}
+
+/* font-family: 'BrioniBold'; */
+@font-face {
+    font-family: 'BrioniBold';
+    src: url("../fonts/Brioni/BrioniTextBold.otf") format("opentype");
+}
