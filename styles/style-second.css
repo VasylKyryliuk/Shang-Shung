@@ -224,8 +224,9 @@ header .head-content .logo-text p {
   padding-bottom: 70px;
 }
 .sect-1 .container {
-  -webkit-box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
-          box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+     -moz-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
 }
 .sect-1 .nav {
   background-color: #fafafa;
@@ -403,8 +404,9 @@ header .head-content .logo-text p {
   padding: 70px 0;
 }
 .sect-3 .container {
-  -webkit-box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
-          box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+     -moz-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
   padding: 60px 0;
 }
 .sect-3 .left-block {
@@ -466,8 +468,9 @@ header .head-content .logo-text p {
   margin-bottom: 60px;
 }
 .sect-5 .container {
-  -webkit-box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
-          box-shadow: 0 0 32px 0 rgba(17, 23, 20, 0.17);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+     -moz-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
 }
 .sect-5 .title {
   margin-top: 0;
@@ -599,8 +602,9 @@ header .head-content .logo-text p {
           flex-direction: row;
 }
 .sect-7 .item-container .item:hover {
-  -webkit-box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+     -moz-box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(50, 50, 50, 0.3);
 }
 .sect-7 .item-container .item a {
   margin: auto;
