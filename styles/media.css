@@ -129,9 +129,17 @@
 	.structure-and-authorities .wrapper {
 		padding: 70px 60px 70px 20px;
 	}
+
+	.structure-and-authorities .wrapper {
+		padding: 70px 60px 70px 20px;
+	}
 	
 	.logistical-support .wrapper {
 		padding: 73px 40px 100px 40px;
+	}
+
+	.logistical-support .wrapper h2 {
+		font-size: 22px;
 	}
 
 	.paid-services .wrapper {
@@ -141,6 +149,18 @@
 	.numbered-list .wrapper {
 		padding: 75px 40px 82px 40px;
 	} 
+
+	.documents .wrapper {
+		padding: 62px 62px 92px 5px; 
+	}
+
+	.documents .wrapper div p {
+		font-size: 11px;
+	}
+
+	.documents .wrapper div {
+		padding: 0 18px 0 50px;
+	}
 
 	.middle-header {
 		text-align: center;
