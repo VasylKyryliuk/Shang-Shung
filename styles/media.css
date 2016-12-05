@@ -1,6 +1,6 @@
 @media screen and (min-width: 701px) and (max-width: 1040px) { 
 
-  	.container { padding: 0 30px;	}
+  	/*.container { padding: 0 30px;	}*/
 
   	.about-school-upper { display: none; }
 
@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 700px) {
 
-	.container { padding: 0 30px;	}
+	/*.container { padding: 0 30px;	}*/
 
   	.about-school-upper { display: none; }
 
@@ -185,7 +185,7 @@
 
 @media screen and (max-width: 569px) {
 
-	.container { padding: 0 30px;	}
+	/*.container { padding: 0 30px;	}*/
 
   	.about-school-upper { display: none; }
 
